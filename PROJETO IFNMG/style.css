@@ -1,0 +1,139 @@
+body{
+    background-image: url("ifnmg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+    
+}
+
+img{
+    display: block;
+    margin: 0 auto;
+    border-radius: 30px;
+    width: 200px;
+    height: auto;
+    margin-bottom: 20px;
+
+}
+
+.container{
+    width: 400px;
+    background-color: transparent;
+    border: 2px solid #665b5b;
+    padding: 30px 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.container h1{
+    text-align: center;
+    font-size: 36px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    
+}
+
+.input-box{
+    position: relative;
+    border: #665b5b;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+    
+}
+
+.input-box input{
+    position: absolute;
+    width: 100%;
+    height: 40%;
+    padding: 20px 0px 20px 20px;
+    background-color: transparent;
+    border: 2px solid #665b5b;
+    border-radius: 40px;
+    outline: none;
+    color: #fff;
+    font-size: 16px;    
+}
+.input-box input::placeholder{
+    color: #fff;
+    font-size: 16px;
+}
+
+.lembrar-senha input[type="checkbox"]{
+    background-color: aqua;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.lembrar-senha{
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto
+    
+}
+
+.lembrar-senha label{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    padding: 30px;
+    accent-color:rgb(243, 242, 242);
+   
+}
+
+.lembrar-senha a{
+    color: transparent;
+    text-decoration: none;
+}
+
+.lembrar-senha a:hover{
+    text-decoration: underline;
+    color: transparent;
+}
+
+.login{
+
+    width: 100%;
+    height: 50px;
+    background-color: #f4f4f4;
+    margin: 30px 0;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #665b5b;
+    font-weight: 600;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.login:hover{
+    background-color: transparent;
+    border: 2px solid 665b5b;
+    transition: 0.5s;
+}
+
+.cadastro{
+    text-align: center;
+    margin: 20px 0 0;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+}
+
+.cadastro a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.cadastro a:hover{
+    text-decoration: underline;
+    color: #fff;
+}
